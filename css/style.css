@@ -11,7 +11,7 @@ body{
 
 header {
     width: 100%;
-    height: 650px;
+    height: 400px;
     background-image: url("../imagenes/headercovid.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -27,11 +27,33 @@ header .inicio {
 }
 
 header .titulo {
-    font-size: 85px;
+    font-size: 80px;
 }
 
 header .subtitulo {
-    font-size: 42px;
+    font-size: 62px;
     font-weight: 300;
     margin-bottom: 32px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+h2 {
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p{
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
 }
