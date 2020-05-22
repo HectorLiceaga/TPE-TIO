@@ -7,6 +7,7 @@
 body{
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+    background-color: #9999ff;
 }
 
 header {
@@ -100,4 +101,52 @@ p{
 
   section {
      background-color: #9999ff;
+  }
+
+  form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  input, textarea{
+    border: 0;
+    outline: none;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 3px;
+  }
+
+  label{
+    color: #3c6382;
+    margin: 2px;
+    padding: 3px;
+  }
+
+  .campo{
+    border: solid 1px #1e3799;
+  }
+
+  .campo:focus{
+     border-color: #9999ff;
+  }
+
+  .centrar{
+    text-align: center;
+  }
+  
+  .btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-shadow: 0 1px 0 #555;
+    box-shadow: 0 1px 1px #555;
+    text-decoration: none;
+  }
+
+  .btn-blue{
+    color: white;
+    background-color: #0a3d62;
   }
