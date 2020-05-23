@@ -11,7 +11,7 @@ function agregar(){
     let nombre = document.querySelector("#nombre").value;
     let apellido = document.querySelector("#apellido").value;
     
-    alert(nombre + " " + apellido + " gracias por escribirnos!!! Sus datos fueron enviados.")
+    alert(nombre + " " + apellido + " gracias por escribirno sus datos fueron enviados")
 
 }
 
