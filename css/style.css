@@ -162,7 +162,10 @@ p{
   }
 
   footer{
-    text-align: center;
     background-color: #3366ff;
     width: 100%;
+  }
+
+  footer, p{
+    text-align: center;
   }
